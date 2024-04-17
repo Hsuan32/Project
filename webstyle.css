@@ -1,0 +1,100 @@
+body{
+    background-color: #d8e1e9;
+    margin: 0px;
+}
+nav{
+    font-family: Arial;
+    text-align: right;
+    color:#a1b5d8
+}
+nav a {
+    color:#a1b5d8;
+    display: inline-block;
+    padding: 30px 16px;
+}
+nav a:hover {color: #415a77;}
+footer{
+    background-color: #738290;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+}
+section{ width: 80%;}
+.about{font-size: 16px;}
+.icon{width: 50px;height: 50px;}
+.l{text-align: center; letter-spacing: 8px;color:#8e9aaf;}
+.eddiv1{padding:15px 60px 15px 60px;display: inline-block;vertical-align: top;}
+.eddiv2{padding: 15px 60px 15px 60px;display: inline-block;}
+.edtext{font-weight:normal;font-size: 18px;}
+.edpic{width: 360px;height: 240px;border-radius: 5%;}
+.div1{padding:15px 10px 45px 60px;display: inline-block;vertical-align: top;}
+.div2{padding: 15px 0px 45px 0px;display: inline-block;}
+
+.clearfix{
+    clear: both;
+}
+.card{   
+    background-color: #fffcf7;
+    background-size: cover;
+    padding: 20px 40px;
+    margin: 20px 100px;
+    border-radius: 15px;
+}
+h3{font-size:22px;font-weight: normal;letter-spacing: 2px;}
+p{font-size: 18px;font-weight: normal;letter-spacing: 2px;}
+h4{font-size:20px;font-weight: normal;letter-spacing: 2px;}
+.progress-bar{
+    margin: 10px;
+    width: 180px;
+    border-right-style: solid;
+    border-right-color: #d8e1e9;
+    border-right-width: 200px;
+}
+dt{
+    width: 180px;
+    border-right-style: solid;
+    border-color: #778da9;   
+    font-size:20px;
+    word-spacing: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pro-py{
+   
+    animation: bar1 2s ease-out;
+    border-right-width: 180px;
+}
+
+@keyframes bar1 {
+    from{border-right-width: 0px;}
+    to{border-right-width: 180px;}   
+}
+.pro-c{
+    animation: bar2 2s ease-out;
+    border-right-width: 160px;
+}
+@keyframes bar2 {
+    from{border-right-width: 0px;}
+    to{border-right-width: 160px;}
+}
+.pro-h{
+    animation: bar3 2s ease-out;
+    border-right-width: 170px;
+}
+@keyframes bar3 {
+    from{border-right-width: 0px;}
+    to{border-right-width: 170px;}
+}
+
+.ex{text-align: center;font-size: 20px;padding: 25px;}
+.ex a {color:#a1b5d8;letter-spacing: 2px; }
+.ex a:hover{color:white;background-color: #a1b5d8;border-radius: 5%;}
+.extitle{padding: 15px;font-size: 20px;font-weight:bolder;text-align: center;letter-spacing: 2px;}
+.picdiv{padding: 20px 10px 20px 10px;display: inline-block;vertical-align: top;}
+.picdiv2{padding: 20px 40px 20px 80px;display: inline-block;vertical-align: top; }
+.pic1{ width:270px ;height:202.5px ;border-radius: 5%;}
+.pic2{width:250px;height:350px; border-radius: 5%;}
+.textdiv{width: 400px; padding: 10px 20px 20px 30px;display: inline-block;text-align: center;}
+.textdiv2{width: 400px; padding: 45px 20px 45px 30px;display: inline-block;text-align: center;}
+

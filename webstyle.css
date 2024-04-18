@@ -65,7 +65,7 @@ dt{
     animation: bar1 2s ease-out;
     border-right-width: 180px;
 }
-
+/*有動態特效*/
 @keyframes bar1 {
     from{border-right-width: 0px;}
     to{border-right-width: 180px;}   
